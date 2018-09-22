@@ -31,4 +31,13 @@
 
 ### Pure functions must always return the same value for the same input.
 > representing it with sets;
-![Valid Pure Function Image](../resources/valid-pure-function.png)
+
+## Valid results
+
+###![Valid Pure Function Image](../resources/valid-pure-function.png)
+
+## Invalid results
+
+###![Invalid Pure Function Image](../resources/invalid-pure-function.png)
+
+### One of the many advantages of use pure functions is the cacheability.
