@@ -1,0 +1,1 @@
+require('./exercices/main').sayHello()

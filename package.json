@@ -6,7 +6,11 @@
   "repository": "https://github.com/luanraithz/fp.js.git",
   "author": "luanraithz <luanraithz@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
     "rambda": "^1.2.2"
   }
 }
