@@ -29,15 +29,14 @@
 
 ```
 
-### Pure functions must always return the same value for the same input.
-> representing it with sets;
+### Pure functions must always return the same value for the same input, as presented below:
 
-## Valid results
+## Valid:
 
-###![Valid Pure Function Image](../resources/valid-pure-function.png)
+![Valid Pure Function Image](../resources/valid-pure-function.png)
 
-## Invalid results
+## Invalid:
 
-###![Invalid Pure Function Image](../resources/invalid-pure-function.png)
+![Invalid Pure Function Image](../resources/invalid-pure-function.png)
 
 ### One of the many advantages of use pure functions is the cacheability.
