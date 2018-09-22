@@ -1,0 +1,12 @@
+{
+  "name": "fp.js",
+  "version": "1.0.0",
+  "description": "Notes and exercices about fp concepts and their usages with javascript",
+  "main": "index.js",
+  "repository": "https://github.com/luanraithz/fp.js.git",
+  "author": "luanraithz <luanraithz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rambda": "^1.2.2"
+  }
+}
