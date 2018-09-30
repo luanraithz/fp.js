@@ -1,1 +1,1 @@
-require('./exercices/main').sayHello()
+// Index doesn't matter, just run the 'jest' commands.
