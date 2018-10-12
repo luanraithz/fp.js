@@ -32,8 +32,10 @@ test('Name of the first car', () => {
 
 test('Car price avarege', () => {
   const carPrices = rambda.map(compose.get('dollar_value'),cars);
+  
   const avarage = compose.avarage(carPrices);
-  expect(avarage).toBe(790700)
+
+  expect(avarage).toBe(790700);
 
 })
 
