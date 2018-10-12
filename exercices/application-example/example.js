@@ -39,7 +39,6 @@ require([
     const app = _.compose(Impure.getJSON(renderImages), url);
 
     app('cats');
-    
 });
 
 
