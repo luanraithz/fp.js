@@ -21,3 +21,22 @@ capitalize("smurf");
   
 });
 ```
+
+### Another examples:
+
+```javascript
+  //  head :: [a] -> a
+  const head = xs => xs[0];
+
+  //  filter :: (a -> Bool) -> [a] -> [a]
+  var filter = curry((f, xs) => xs.filter(f));
+
+  //  reduce :: (b -> a -> b) -> b -> [a] -> b
+  var reduce = curry((f, x, xs) => xs.reduce(f, x));
+```
+
+### Constraints
+```javascript
+// sort :: Ord a => [a] -> [a]
+```
+#### Here, where are saying that the function sort receives a parameter `a` that implements `Ord`
