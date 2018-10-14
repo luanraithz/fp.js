@@ -1,6 +1,6 @@
 # Handle Milner
 
-### Anotation for type definition with functions
+## Anotation for type definition with functions
 
 ```javascript
 //  capitalize :: String -> String
@@ -13,8 +13,9 @@ capitalize("smurf");
 
 ```
 
-### With curry
-```javascript 
+## With curry
+
+```javascript
 
   //  join :: String -> [String] -> String
   const join = curry((what, xs) =>  xs.join(what));
@@ -22,7 +23,7 @@ capitalize("smurf");
 });
 ```
 
-### Another examples:
+### Another examples
 
 ```javascript
   //  head :: [a] -> a
@@ -36,7 +37,10 @@ capitalize("smurf");
 ```
 
 ### Constraints
+
 ```javascript
 // sort :: Ord a => [a] -> [a]
+
 ```
-#### Here, where are saying that the function sort receives a parameter `a` that implements `Ord`
+
+> Above, where are saying that the function sort receives a parameter `a` that implements `Ord`
