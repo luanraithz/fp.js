@@ -1,10 +1,13 @@
-const breakWordWith = breakWith => word => word.split(breakWith);
 
-const filterWith = filter => list => list.filter(filter)
+const rambda = require('rambda');
 
-const getElementsUntil = index => list => list.slice(0,index);
+const breakWordWith = rambda.curry((breakWith, word) => word.split(breakWith));
 
-const curryWithReduce = (reduceAction, initialValue) => list => list.reduce(reduceAction, initialValue);
+const filterWith = rambda.curry((filter,list) => list.filter(filter));
+
+const getElementsUntil = rambda.curry((index, list) => list.slice(0,index));
+
+const curryWithReduce = rambda.curry((reduceAction, initialValue, list) => list.reduce(reduceAction, initialValue))
 
 module.exports = {
     breakWordWith,
