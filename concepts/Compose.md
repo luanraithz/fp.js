@@ -2,7 +2,7 @@
 
 >"Composition feels like function husbandry. You, breeder of functions, select two with traits you'd like to combine and mash them together to spawn a brand new one. Usage is as follows:"
 
-```javascript 
+```javascript
 
   const toUpperCase = function(x) {
     return x.toUpperCase();

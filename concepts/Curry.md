@@ -1,8 +1,8 @@
 # Curry
 
-### Currying is a way to call a function with less parameters than it usually need:
+## Currying is a way to call a function with less parameters than it usually need
 
-```javascript 
+```javascript
 
   const filterWith = filter => list => list.filter(filter);
 

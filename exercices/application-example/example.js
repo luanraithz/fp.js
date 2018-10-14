@@ -10,10 +10,6 @@ require([
     'jquery',
   ],
   function(_, $) {
-    var trace = _.curry(function(tag, x) {
-      console.log(tag, x);
-      return x;
-    });
 
     const Impure = { 
       getJSON: _.curry((callback, url) => {
