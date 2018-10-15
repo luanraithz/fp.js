@@ -1,6 +1,6 @@
 # Tupperware
 
-## The mignty Container
+## The mighty Container
 
 > Control flor, error handling, asynchronous actions, state and effects.
 

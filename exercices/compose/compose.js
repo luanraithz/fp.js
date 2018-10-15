@@ -1,4 +1,4 @@
-const  { reduce,compose, add,replace, last, prop, head } = require('rambda')
+const  { reduce, curry, compose, add,replace, last, prop, head } = require('rambda')
 
 const toUpperCase = word => word.toUpperCase();
 
@@ -6,7 +6,7 @@ const exclam = word => word + '!';
 
 const angry = compose(exclam, toUpperCase);
 
-const get = propName => obj => prop(propName, obj);
+const get =  curry((propName, obj) => prop(propName, obj));
 
 const getLast = array => last(array);
 
