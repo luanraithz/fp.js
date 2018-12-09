@@ -8,5 +8,5 @@
   * [Compose](concepts/Compose.md)
   * [Curry](concepts/Curry.md)
   * [Tupperware](concepts/Tupperware.md)
-  * [Handler Milner](concepts/HandlerMilner.md)
+  * [Handler Milner](concepts/HandleyMilner.md)
   * [Category Theory](concepts/CategoryTheory.md)
