@@ -1,6 +1,6 @@
 # fp.js
 
-## These are my notes of learning FP with javascript with [this book](https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/)
+## These are my notes of FP with javascript of [this book](https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/)
 
 ### Content
   * [High Order Functions](concepts/HighOrderFunctions.md)
