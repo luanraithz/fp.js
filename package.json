@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "jest": "^23.6.0",
-    "rambda": "^1.2.2"
+    "rambda": "^4.2.0"
   }
 }
