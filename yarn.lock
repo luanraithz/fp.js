@@ -1998,9 +1998,9 @@ punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
-rambda@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/rambda/-/rambda-4.2.0.tgz#840f2e48366cfd5aa157393de47c67abd8117794"
+rambda@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/rambda/-/rambda-7.0.0.tgz#f5305a9762a87355bf316a16bd67fd359fcbb19e"
 
 react-is@^17.0.1:
   version "17.0.2"
