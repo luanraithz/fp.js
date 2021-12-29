@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "rambda": "^4.2.0",
+    "rambda": "^7.0.1",
     "jest": "^27.2.1"
   }
 }
